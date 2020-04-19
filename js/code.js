@@ -82,17 +82,17 @@ function nextblouse()
     else
      if(state.j===2){
     shoe.setAttribute("class","blouse2");
-         state.j=0;
+         state.j++;
     }
     else
      if(state.j===3){
     shoe.setAttribute("class","blouse3");
-         state.j=0;
+         state.j++;
     }
     else
      if(state.j===4){
     shoe.setAttribute("class","blouse4");
-         state.j=0;
+         state.j++;
     }
     else
      if(state.j===5){
@@ -121,12 +121,12 @@ function nextpants()
     else
      if(state.k===2){
     shoe.setAttribute("class","pants2");
-         state.k=0;
+         state.k++;
     }
     else
      if(state.k===3){
     shoe.setAttribute("class","pants3");
-         state.k=0;
+         state.k++;
     }
     else
      if(state.k===4){
@@ -174,17 +174,17 @@ function nextshoes()
     else
      if(state.m===2){
     shoe.setAttribute("class","shoes2");
-         state.m=0;
+         state.m++;
     }
     else
      if(state.m===3){
     shoe.setAttribute("class","shoes3");
-         state.m=0;
+         state.m++;
     }
     else
      if(state.m===4){
     shoe.setAttribute("class","shoes4");
-         state.m=0;
+         state.m++;
     }
     else
      if(state.m===5){
