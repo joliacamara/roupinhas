@@ -13,11 +13,20 @@ function init()
 }
 
 var state = {
-    i : 0,
+    i: 0,
     j:0,
     k:0,
     l:0,
     m:0
+};
+
+
+var state = {
+    i: 1,
+    j:1,
+    k:1,
+    l:1,
+    m:1
 };
 
 
@@ -46,7 +55,7 @@ function nexthair()
     else
      if(state.i===3){
     dress.setAttribute("class","hair3");
-         state.i++;
+         state.i=1;
 
     }
     else
@@ -57,7 +66,7 @@ function nexthair()
     else
      if(state.i===5){
     dress.setAttribute("class","hair5");
-         state.i++;
+         state.i=0;
     }
     
 }
