@@ -55,7 +55,7 @@ table {
     margin:auto;
     width:540px;
     height:720px;
-   background-color: aqua;
+   background-color: #d3d3d3;
 }
 
 #background{
@@ -64,7 +64,7 @@ table {
     height:720px;
     left:100px;
     right: 100px;
-    background-color: rebeccapurple;
+    background-color: #ffffff;
     background-image: url("../img/resized_background.png");
     
     
@@ -356,7 +356,7 @@ table {
 
 #nexthair{
     position:absolute;
-    right:50px;
+    right:10px;
     top:124px;
 }
 
