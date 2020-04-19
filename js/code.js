@@ -20,6 +20,14 @@ var state = {
     m:0
 };
 
+var state = {
+    i : 1,
+    j:0,
+    k:0,
+    l:0,
+    m:0
+};
+
 function nexthair()
 {
     console.log("inside function nexthair");
