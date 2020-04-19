@@ -147,7 +147,7 @@ function nextsock()
     else
      if(state.l===1){
     shoe.setAttribute("class","sock1");
-         state.l++;
+         state.l=0;
          console.log(state.l);
     }
     
