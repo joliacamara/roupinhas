@@ -33,7 +33,7 @@ function nexthair()
     else
      if(state.i===1){
     dress.setAttribute("class","hair1");
-         state.i=++;
+         state.i++;
          console.log(state.i);
     }
     else
