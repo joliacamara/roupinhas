@@ -355,25 +355,25 @@ table {
 
 #nexthair{
     position:absolute;
-    right:450px;
+    right:420px;
     top:124px;
 }
 
 #nextblouse{
     position:absolute;
-    right:0px;
+    right:420px;
     top:237px;
 }
 
 #nextpants{
     position:absolute;
-    right:0px;
+    right:420px;
     top:342px;
 }
 
 #nextsock{
     position:absolute;
-    right:0px;
+    right:420px;
     top:480px;
 }
 
@@ -385,30 +385,30 @@ table {
 
 #prevhair{
     position:absolute;
-    right:0px;
+    right:420px;
     top:124px;
 }
 
 #prevblouse{
     position:absolute;
-    right:0px;
+    right:420px;
     top:237px;
 }
 
 #prevpants{
     position:absolute;
-    right:0px;
+    right:420px;
     top:342px;
 }
 
 #prevsock{
     position:absolute;
-    right:0px;
+    right:420px;
     top:480px;
 }
 
 #prevshoes{
     position:absolute;
-    right:0px;
+    right:420px;
     top:630px;
 }
