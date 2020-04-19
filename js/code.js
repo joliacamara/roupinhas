@@ -39,24 +39,24 @@ function nexthair()
     else
      if(state.i===2){
     dress.setAttribute("class","hair2");
-         state.i=1;
+         state.i=+++;
 
     }
     else
      if(state.i===3){
     dress.setAttribute("class","hair3");
-         state.i=2;
+         state.i=++++;
 
     }
     else
      if(state.i===4){
     dress.setAttribute("class","hair4");
-         state.i=3;
+         state.i=+++++;
     }
     else
      if(state.i===5){
     dress.setAttribute("class","hair5");
-         state.i=4;
+         state.i=++++++;
     }
     
 }
