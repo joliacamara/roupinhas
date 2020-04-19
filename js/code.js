@@ -20,13 +20,6 @@ var state = {
     m:0
 };
 
-var state = {
-    i : 1,
-    j:0,
-    k:0,
-    l:0,
-    m:0
-};
 
 function nexthair()
 {
@@ -48,23 +41,27 @@ function nexthair()
      if(state.i===2){
     dress.setAttribute("class","hair2");
          state.i=0;
+         console.log(state.i);
 
     }
     else
      if(state.i===3){
     dress.setAttribute("class","hair3");
          state.i=1;
+         console.log(state.i);
 
     }
     else
      if(state.i===4){
     dress.setAttribute("class","hair4");
          state.i=2;
+         console.log(state.i);
     }
     else
      if(state.i===5){
     dress.setAttribute("class","hair5");
          state.i=3;
+         console.log(state.i);
     }
     
 }
