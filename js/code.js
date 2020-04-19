@@ -7,13 +7,17 @@ function init()
     state.i=1;
     state.j=1;
     state.k=1;
+    state.l=1;
+    state.m=1;
     
 }
 
 var state = {
     i : 0,
     j:0,
-    k:0
+    k:0,
+    l:0,
+    m:0
 };
 
 function nexthair()
@@ -99,33 +103,33 @@ function nextblouse()
 function nextpants()
 {
     console.log("inside function nextpants");
-    console.log(state.j);
+    console.log(state.k);
     var shoe=document.getElementById("pants");
-    if(state.j===0){
+    if(state.k===0){
     shoe.setAttribute("class","pants5");
-        state.j++;
+        state.k++;
         console.log(state.j);
     }
     else
-     if(state.j===1){
+     if(state.k===1){
     shoe.setAttribute("class","pants1");
-         state.j++;
+         state.k++;
          console.log(state.j);
     }
     else
-     if(state.j===2){
+     if(state.k===2){
     shoe.setAttribute("class","pants2");
-         state.j=0;
+         state.k=0;
     }
     else
-     if(state.j===3){
+     if(state.k===3){
     shoe.setAttribute("class","pants3");
-         state.j=0;
+         state.k=0;
     }
     else
-     if(state.j===4){
+     if(state.k===4){
     shoe.setAttribute("class","pants4");
-         state.j=0;
+         state.k=0;
     }
     
 }
@@ -133,18 +137,18 @@ function nextpants()
 function nextsock()
 {
     console.log("inside function nextsock");
-    console.log(state.j);
+    console.log(state.l);
     var shoe=document.getElementById("sock");
-    if(state.j===0){
+    if(state.l===0){
     shoe.setAttribute("class","sock2");
-        state.j++;
-        console.log(state.j);
+        state.l++;
+        console.log(state.l);
     }
     else
-     if(state.j===1){
+     if(state.l===1){
     shoe.setAttribute("class","sock1");
-         state.j++;
-         console.log(state.j);
+         state.l++;
+         console.log(state.l);
     }
     
 }
@@ -152,38 +156,38 @@ function nextsock()
 function nextshoes()
 {
     console.log("inside function nextshoes");
-    console.log(state.j);
+    console.log(state.m);
     var shoe=document.getElementById("shoes");
-    if(state.j===0){
+    if(state.m===0){
     shoe.setAttribute("class","shoes6");
-        state.j++;
-        console.log(state.j);
+        state.m++;
+        console.log(state.m);
     }
     else
-     if(state.j===1){
+     if(state.m===1){
     shoe.setAttribute("class","shoes1");
-         state.j++;
-         console.log(state.j);
+         state.m++;
+         console.log(state.m);
     }
     else
-     if(state.j===2){
+     if(state.m===2){
     shoe.setAttribute("class","shoes2");
-         state.j=0;
+         state.m=0;
     }
     else
-     if(state.j===3){
+     if(state.m===3){
     shoe.setAttribute("class","shoes3");
-         state.j=0;
+         state.m=0;
     }
     else
-     if(state.j===4){
+     if(state.m===4){
     shoe.setAttribute("class","shoes4");
-         state.j=0;
+         state.m=0;
     }
     else
-     if(state.j===5){
+     if(state.m===5){
     shoe.setAttribute("class","shoes5");
-         state.j=0;
+         state.m=0;
     }
     
 }
