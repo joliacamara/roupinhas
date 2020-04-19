@@ -13,7 +13,7 @@ function init()
 }
 
 var state = {
-    i : 0,1
+    i : 0,
     j:0,
     k:0,
     l:0,
